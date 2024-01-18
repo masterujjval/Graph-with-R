@@ -1,7 +1,5 @@
-
-
 {
-  data=read.csv("covid-deaths.csv")
+  data=read.csv("covid-deaths.csv") #choose the file -> data(file.choose()) to select the files manually
   data
   
   str(data)
