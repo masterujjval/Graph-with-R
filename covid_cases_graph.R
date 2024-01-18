@@ -1,6 +1,6 @@
 #!/usr/bin/Rscript
 {
-  data<-read.csv("covid-cases.csv") #choose the file
+  data<-read.csv("covid-cases.csv") #choose the file -> data(file.choose()) to select the files manually
 data
 summary(data)
 str(data)
